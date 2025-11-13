@@ -1,0 +1,14 @@
+[project]
+name = "vector-rust-py"
+version = "0.1.0"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+]
+
+[build-system]
+requires = ["maturin>=1.7.0"]
+build-backend = "maturin"
+
+[tool.uv]
+default-python = "3.12"
